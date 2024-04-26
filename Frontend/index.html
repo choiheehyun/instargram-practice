@@ -7,78 +7,101 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <title>Index</title>
 </head>
+
 <body>
-  <!-- 사이드바 -->
-<div class="flex flex-col w-64 h-screen px-4 py-8 bg-white border-r dark:bg-gray-800 dark:border-gray-600">
-  <!-- 1. 로고 -->
-  <img src="logo.png" alt="logo"> 
-  <!-- size 조절 -->
-  
-  <!-- 2. 하단 메뉴 -->
-  <div class="flex flex-col justify-between flex-1 mt-6">
-      <nav>
-          <a class="flex items-center px-4 py-2 text-gray-700 rounded-md dark:bg-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-            <span class="material-symbols-outlined">home</span>
-            <span class="mx-4 font-medium">홈</span>  
-          </a>
+<div class="flex">
+    <!-- 사이드바 -->
+  <div class="flex flex-col w-64 h-screen px-4 py-8 bg-white border-r dark:bg-gray-800 dark:border-gray-600">
+    <!-- 1. 로고 -->
+    <img src="logo.png" alt="logo">
+    
+    <!-- 2. 하단 메뉴 -->
+    <div class="flex flex-col justify-between flex-1 mt-6">
+        <nav>
+            <a class="flex items-center px-4 py-2 text-gray-700 rounded-md dark:bg-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+              <span class="material-symbols-outlined">home</span>
+              <span class="mx-4 font-medium">홈</span>  
+            </a>
 
+            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+              <span class="material-symbols-outlined">search</span>  
+              <span class="mx-4 font-medium">검색</span>
+            </a>
+
+            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+                <span class="material-symbols-outlined">explore</span>
+                <span class="mx-4 font-medium">탐색 탭</span>
+            </a>
+
+            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+              <span class="material-symbols-outlined">subscriptions</span>
+              <span class="mx-4 font-medium">릴스</span>
+            </a>
+
+            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+              <span class="material-symbols-outlined">send</span>
+              <span class="mx-4 font-medium">메시지</span>
+            </a>
+
+            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+              <span class="material-symbols-outlined">favorite</span>
+              <span class="mx-4 font-medium">알림</span>
+            </a>
+
+            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+              <span class="material-symbols-outlined">add_box</span>
+              <span class="mx-4 font-medium">만들기</span>
+            </a>
+
+            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
+              <img class="object-cover mx-2 rounded-full h-9 w-9" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="avatar"/>
+              <span class="mx-4 font-medium">프로필</span>
+            </a>
+        </nav>
+
+        <div class="flex items-center px-4 -mx-2">
           <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-            <span class="material-symbols-outlined">search</span>  
-            <span class="mx-4 font-medium">검색</span>
+            <span class="material-symbols-outlined">menu</span>
+            <span class="mx-4 font-medium">더 보기</span>
           </a>
-
-          <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-              <span class="material-symbols-outlined">explore</span>
-              <span class="mx-4 font-medium">탐색 탭</span>
-          </a>
-
-          <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-            <span class="material-symbols-outlined">subscriptions</span>
-            <span class="mx-4 font-medium">릴스</span>
-          </a>
-
-          <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-            <span class="material-symbols-outlined">send</span>
-            <span class="mx-4 font-medium">메시지</span>
-          </a>
-
-          <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-            <span class="material-symbols-outlined">favorite</span>
-            <span class="mx-4 font-medium">알림</span>
-          </a>
-
-          <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-            <span class="material-symbols-outlined">add_box</span>
-            <span class="mx-4 font-medium">만들기</span>
-          </a>
-
-          <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-            <img class="object-cover mx-2 rounded-full h-9 w-9" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="avatar"/>
-            <span class="mx-4 font-medium">프로필</span>
-          </a>
-      </nav>
-
-      <div class="flex items-center px-4 -mx-2">
-        <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="#">
-          <span class="material-symbols-outlined">menu</span>
-          <span class="mx-4 font-medium">더 보기</span>
-        </a>
-          
-      </div>
+        </div>
+    </div>
   </div>
-</div>
+
   <!-- 본문 div -->
+  <div class="flex justify-center bg-gray-700 w-screen">
+      <!-- <div class="flex flex-col"> -->
+    <div class="bg-white">
       <!-- 프로필 div -->
-        <!-- 프로필 사진 div -->
-        <!-- 프로필 설명란 div -->
-          <!-- 1. 닉네임/ 팔로우/ 메시지 div -->
-          <!-- 2. 게시물, 팔로워, 팔로우 div -->
-          <!-- 3. 기타 설명 div -->
-          <!-- 4. nn 님이 팔로우합니다 div -->
-      <!-- 게시물 div -->
-        <!-- 게시물 , 릴스, 태그됨 div -->
-        <!-- 게시물 사진 div -->
-          <!-- 게시물 -->
+      <div class="bg-cyan-300">프로필 div 입니당.
+          <!-- 프로필 사진 div -->
+          <div>
+            <img src="profile.png" alt="profile" class="rounded-full size-24">
+          </div>
+          <!-- 프로필 설명란 div -->
+            <!-- 1. 닉네임/ 팔로우/ 메시지 div -->
+            <!-- 2. 게시물, 팔로워, 팔로우 div -->
+            <!-- 3. 기타 설명 div --> 
+            <!-- 4. nn 님이 팔로우합니다 div -->
+  
+      </div>
+      <div class="bg-fuchsia-400">게시물 div
+  
+      </div>
+  
+        <!-- 게시물 div -->
+          <!-- 게시물 , 릴스, 태그됨 div -->
+          <!-- 게시물 사진 div -->
+            <!-- 게시물 -->
+  
+    </div>
+
+    </div>
+
+
+
+
+</div>
 
 </body>
 </html>
