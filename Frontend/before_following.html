@@ -74,58 +74,76 @@
       <!-- <div class="flex flex-col"> -->
     <div class="bg-white">
       <!-- 프로필 div -->
-      <div class="flex bg-cyan-300">
+      <div class="flex bg-white">
           <!-- 프로필 사진 div -->
-          <div>
-            <img src="profile.png" alt="profile" class="rounded-full size-24">
+          <div class="px-24 py-24">
+            <img src="profile.png" alt="profile" class="rounded-full size-36 border-slate-300">
           </div>
           <!-- 프로필 설명란 div -->
           <div>
             <!-- 1. 닉네임/ 팔로우/ 메시지 div -->
-            <div>
-              <span>hellodoggo</span>
-              <button class="bg-cyan-300">팔로우</button>
-              <button class="bg-gray-700">메시지 보내기</button>
-              <button class="bg-gray-700">친구추가</button>
-              <span>...</span>
+            <div class="flex mt-8 font-bold">
+              <span class="pr-4">hellodoggo</span>
+              <button class="bg-sky-400 rounded-lg px-4 py-1 text-white mx-1">팔로우</button>
+              <button class="bg-slate-200 rounded-lg px-4 py-1 mx-1">메시지 보내기</button>
+              <button class="material-symbols-outlined bg-slate-200 rounded-lg px-4 py-1 mx-1">group_add</button>
+              <span class="material-symbols-outlined mx-1">alternate_email</span>
+              <img src="black dots.png" alt="dots" class="rounded-lg size-6">
             </div>
             <!-- 2. 게시물, 팔로워, 팔로우 div -->
-            <div>
-              <span>게시물 447</span>
-              <span>팔로워 1만</span>
-              <span>팔로우 98</span>
+            <div class="flex mt-8 font-bold">
+              <span class="mr-8">게시물 447</span>
+              <span class="mr-8">팔로워 1만</span>
+              <span class="mr-8">팔로우 98</span>
             </div>
             <!-- 3. 기타 설명 div --> 
-            <div>
-              <p>리트리버는 내운명</p>
-              <p>여긴 글자 좀 작게. 특징이 분류되는 곳인가?</p>
-              <p>블랙 리트리버 팬 페이지 입니다.</p>
-              <p>멈머들이 최고야</p>
-              <p>고앵쓰들 눈감아</p>
-              <p>더 많은 콘텐츠는 @hellodoggoofficial에서 확인 가능</p>
-              <a href="#">링크사진 linktr.ee/doggo</a>
+            <div class="mt-6">
+              <p class="font-bold">리트리버는 내운명</p>
+              <div class="text-sm">
+                <p class="text-gray-400 font-bold">반려견</p>
+                <p>블랙 리트리버 팬 페이지 입니다.</p>
+                <p>멈머들이 최고야</p>
+                <p>고앵쓰들 눈감아</p>
+                <p>더 많은 콘텐츠는 @hellodoggoofficial에서 확인 가능</p>
+                <div class="flex">
+                  <img src="link.png" alt="link" class="size-4 rounded-lg mr-1"> 
+                  <a href="#" class="font-bold text-sky-800">linktr.ee/doggo</a>
+                </div>
+              </div>
             </div>
             <!-- 4. nn 님이 팔로우합니다 div -->
-            <div>
-              DanpoongE 님이 팔로우합니다
+            <div class="mt-6 mb-8 text-sm">
+              <span class="font-bold">DanpoongE</span>님이 팔로우합니다
             </div>
-
           </div>
-  
       </div>
-      <div class="bg-white align-center px-12">
-        <div class="flex justify-between">
-          <span>게시물</span>
-          <span>릴스</span>
-          <span>태그됨</span>
+      <hr>
+      <!-- 게시물 div -->
+      <div class="flex bg-white align-center px-12 py-4 justify-center">
+        <div></div>
+        <!-- 게시물 , 릴스, 태그됨 div -->
+        <div class="flex">
+          <div>
+            <span class="material-symbols-outlined text-base font-bold mr-12">grid_on 게시물</span>
+            <!-- <span class="ml-2 mr-12 text-base font-bold">게시물</span> -->
+          </div>
+          <div>
+            <span class="material-symbols-outlined text-base font-bold mr-12">subscriptions 릴스</span>
+          </div>
+          <div>
+            <span class="material-symbols-outlined text-base font-bold">account_box 태그됨</span>
+          </div>
         </div>
+        <div></div>
       </div>
-      <div class="bg-fuchsia-400 h-screen">게시물 div. 여기는 grid로 작업하기
-        <!-- 게시물 div -->
-          <!-- 게시물 , 릴스, 태그됨 div -->
-          <!-- 게시물 사진 div -->
-            <!-- 게시물 -->
-        
+      <!-- 게시물 사진 div -->
+      <div class="grid grid-cols-3 gap-1 gap-y-1">
+        <!-- 게시물 -->
+        <a href="#"><img src="1.jpg" alt="photo1" class="size-80"></a>
+        <a href="#"><img src="2.png" alt="photo2" class="size-80"></a>
+        <a href="#"><img src="3.jpg" alt="photo3" class="size-80"></a>
+        <a href="#"><img src="4.jpg" alt="photo4" class="size-80"></a>
+        <a href="#"><img src="5.jpg" alt="photo5" class="size-80"></a>
       </div>
 
   

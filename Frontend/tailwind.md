@@ -10,3 +10,8 @@
 - ml-#: margin left
 - mr-#: margin right
 
+# 질문
+- 친구추가 버튼 줄 맞춰지지 않음(mt를 따로 주면 div전체가 이동). icon 써서 그런 것?
+
+# 구현 못한 부분
+- 게시물, 릴스, 태그됨 위 black bar
